@@ -38,6 +38,7 @@
   "devDependencies": {
     "cross-env": "^7.0.3",
     "cypress": "^6.1.0",
+    "eslint-plugin-cypress": "^2.12.1",
     "husky": "^5.1.3"
   }
 }
