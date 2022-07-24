@@ -5,9 +5,12 @@ import './index.css';
 import App from './App';
 import '@csstools/normalize.css';
 
-ReactDOM.render(
+const element = (
   <Router>
     <App />
-  </Router>,
-  document.getElementById('root'),
+  </Router>
 );
+
+const container = document.getElementById('root');
+
+ReactDOM.render(element, container);
