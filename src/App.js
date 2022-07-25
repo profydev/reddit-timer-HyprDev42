@@ -1,11 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './components/home';
-import Search from './components/search';
+import Home from './pages/home';
+import Search from './pages/search';
+import Header from './components/header';
 
 const App = () => {
   return (
     <BrowserRouter>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/search" element={<Search />} />
