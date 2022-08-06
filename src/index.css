@@ -1,0 +1,48 @@
+/* Import google fonts - Bitter and Montserrat - and their needed font weights */
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Montserrat:wght@400;500;600;700&display=swap');
+
+:global(.bg-white) {
+    background-color: #F2F2F2;
+}
+
+:global(.font-nav) {
+    font-family: 'Montserrat', sans-serif;
+    font-style: 'normal';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #636363;
+}
+
+:global(.font-title) {
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+    color: #000000;
+}
+
+:global(.font-subTitle) {
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+:global(.font-text) {  
+    font-family: 'Montserrat', sans-serif;
+    font-style: 'normal';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #93918F;
+}
+
+:global(.font-textLink) {
+    color: #0087FF !important;
+}
+
